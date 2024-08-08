@@ -1,6 +1,6 @@
 {
   "name": "carbona",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple JavaScript date and time library inspired by PHP's Carbon",
   "main": "carbona.js",
   "scripts": {
