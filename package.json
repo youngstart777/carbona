@@ -6,6 +6,27 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "date",
+    "time",
+    "datetime",
+    "carbon",
+    "carbonjs",
+    "javascript",
+    "date-manipulation",
+    "time-manipulation",
+    "date-formatting",
+    "time-formatting",
+    "date-library",
+    "time-library",
+    "php-carbon",
+    "date-util",
+    "time-util",
+    "carbon-alternative",
+    "date-utility",
+    "time-utility",
+    "datetime-library"
+  ],
   "author": "Uri Saul",
   "license": "MIT"
 }
