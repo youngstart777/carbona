@@ -67,13 +67,13 @@ class Carbona {
         return formatString
             .replace('YYYY', yearFull)
             .replace('YY', yearShort)
+            .replace('MMMM', monthFull)       // Full month name
+            .replace('MMM', monthShort)       // Short month name
             .replace('MM', monthPadded)        // Padded month
             .replace('M', monthFormatted)      // Non-padded month
-            .replace('MMM', monthShort)       // Short month name
-            .replace('MMMM', monthFull)       // Full month name
             .replace('DD', dayPadded)         // Padded day
-            .replace('D', dayFormatted)       // Non-padded day
             .replace('Do', dayWithSuffix)     // Day with suffix
+            .replace('D', dayFormatted)       // Non-padded day
             .replace('HH', hours)
             .replace('mm', minutes)
             .replace('ss', seconds);
